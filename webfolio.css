@@ -1,0 +1,176 @@
+a,.connect{
+    text-decoration:none;
+    color:goldenrod;
+    font-family: "Bree Serif";
+}
+
+#wall{
+    background-color:var(--color-wall);
+}
+
+p,h3,ul li h2{
+    color:var(--text-color2);
+}
+
+.home{
+    padding-bottom: 320px;
+    padding-top: 10px;
+    background:url("portfolio/pikaso_texttoimage_adorable-cartoon-style-a-little-girl-who-studies-a.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1250px 590px;
+}
+#title{
+    font-size: 85px;
+    font-family: "Sofia";
+    color:#F3D7CA;
+}
+.main{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about,#connect{
+    background-color:var(--color-one);
+    border-radius: 15px;
+}
+#edu,#leadership,#achievements{
+    background-color: var(--color-two);
+    border-radius: 15px;
+    
+}
+#edu h2, #leadership h2{
+    color:tomato;
+}
+#cca{
+    background-color:var(--color-three);
+    border-radius: 15px;
+    
+}
+#cca h2{
+    color:tomato;
+}
+
+#prog{
+    background-color:var(--color-five);
+    border-radius: 15px;
+}
+
+#skills,#featuredproject{
+    background-color:var(--color-six);
+    border-radius: 15px;
+}
+
+th{
+    background-color:beige;
+    font-size:30px;
+    font-family: "Mate SC";
+}
+.header{
+    font-family: "Protest Riot";
+    font-size: 50px;
+    color:darksalmon;
+}
+li ul{
+    font-family:"Patrick Hand";
+    font-size: 20px;
+    color:var(--text-color1);
+}
+li a{
+    font-family:"Patrick Hand";
+    font-size: 20px;
+    color:var(--link-color);
+}
+li a:visited{
+    font-family:"Patrick Hand";
+    font-size: 20px;
+    color:var(--linkvisited-color);
+}
+li a:hover{
+    font-family:"Patrick Hand";
+    font-size: 20px;
+    color:red;
+}
+
+b{
+    font-size: 18px;
+    color:var(--text-color2);
+}
+.self-intro{
+    font-family: "Mate SC";
+    font-size: 25px;
+}
+.navbar {
+overflow: hidden;
+background-color:var(--color-four);
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.navbar a:hover {
+background: #ddd;
+color: black;
+}
+
+.navbar #icon{
+    float: left;
+    width:30px;
+    cursor:pointer;
+    margin-top: 10px;
+    margin-left:10px;
+    
+}
+
+div.gallery {
+margin: 5px;
+width: 180px;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+:root {
+    --color-wall:white;
+    --color-one:#F8EDEB;
+    --color-two:#F7D9C4;
+    --color-three:#F8DFC1;
+    --color-four:burlywood;
+    --color-five:#FCF9BE;
+    --color-six:#FFDCA9;
+    --color-seven:black;
+    --text-color1: dimgrey;
+    --text-color2:black;
+    --linkvisited-color:green;
+    --link-color:blue;
+  }
+
+.dark-theme{
+    --color-wall:#0A0E1A;
+    --color-one:#353D60;
+    --color-two:#1D243D;
+    --color-three:#353D60;
+    --color-four:#515A82;
+    --color-five:#1D243D;
+    --color-six:#353D60;
+    --text-color1: #C6CAEB;
+    --text-color2:white;
+    --linkvisited-color:blue;
+    --link-color:green;
+}
+  
