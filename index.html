@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Janice's Webfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Bree Serif|Protest Riot|Patrick Hand|Mate SC&effect=shadow-multiple">
+        <link rel="stylesheet" href="webfolio.css">
+    </head>
+    <body id="wall">
+        <div class="home">
+            <div class="navbar">
+                <a href="#top">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skill Mastery</a>
+                <a href="#prog">Programming Language Learnt</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#featuredproject">Featured Projects</a>
+                <a href="#connect">Connect</a>
+                <a target="_blank" href="portfolio/24S56.jpeg" >Surprise Me</a>
+                <img src="project2/moon.png" id="icon">
+            </div>
+            <script>
+                var icon = document.getElementById("icon");
+                icon.onclick=function(){
+                    document.body.classList.toggle("dark-theme")
+                    if(document.body.classList.contains("dark-theme")){
+                        icon.src="project2/sun.png";
+                    }
+                    else{
+                        icon.src="project2/moon.png";
+                    }
+                }
+            </script>
+            <h1 align="center" id="title" class="font-effect-shadow-multiple">Janice's Webfolio</h1>
+        </div>
+        <br>
+        <div id="about">
+        <br>
+            <h1 align="center" class="header">About Me</h1>
+            <table align="center">
+                <tr>
+                    <td><img src="portfolio/me.png" alt="Me" width="285px" height="330px"></td>
+                    <td>
+                        <div class="self-intro">
+                            <p>Hi! My name is Poh Shi Jin <br>
+                                and I am 18 years old this year. <br> 
+                                I am a scholar from Malaysia and <br>
+                                I came to Singapore to further my <br>
+                                studies since 2021. </p>  
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+        <br>
+        <table align="center" style="width:100%">
+            <tr>
+                <td style="width:33%" align="center" id="edu">
+                    <h2>My Educational Journey</h2>
+                    <p>2019 - 2021</p>
+                    <h3>Chong Hwa Independent High School</h3>
+                    <p>2022 - 2023</p>
+                    <h3>Dunman Secondary School</h3>
+                    <p>2024 - 2025</p>
+                    <h3>Victoria Junior College</h3>
+                    <br>
+                </td>
+                <td style="width:33%" align="center" id="cca">
+                    <h2>My CCAs</h2>
+                    <p>2020 - 2021</p>
+                    <h3>Rhythmic Gymnastics School Team</h3>
+                    <p>2022 - 2023</p>
+                    <h3>Volleyball</h3>
+                    <p>2024 - 2025</p>
+                    <h3>Track and Field</h3>
+                    <br>
+                </td>
+                <td style="width:33%" align="center" id="leadership">
+                    <h2>My Leadership Positions</h2>
+                    <p>2020 - 2021</p>
+                    <h3>Class Secretary</h3>
+                    <p>2023</p>
+                    <h3>Peer Support Leader</h3>
+                    <p>2024</p>
+                    <h3>Assistant Class Tutor's Representative</h3>
+                    <br>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div id="skills">
+        <br>
+            <h2 align="center" class="header">Skills Mastery</h2>
+            <table align="center" style="width:63%;">
+                <tr>
+                    <td>
+                        <img src="project2/legomindstorm.png" alt="lego" width="80px" height="90px">
+                    </td>
+                    <td>
+                        <img src="project2/Unity.png" alt="html" width="125px" height="87px">
+                    </td>
+                    <td>
+                        <img src="project2/blender.png" alt="css" width="100px" height="100px">
+                    </td>
+                    <td>
+                        <img src="project2/RoboMind-square.png" alt="robomind" width="97px" height="85px">
+                    </td>
+                    <td>
+                        <img src="project2/vrt.png" alt="vrt" width="150px" height="90px">
+                    </td>
+                </tr>
+            </table>
+        <br><br><br>
+        </div>
+        <br>
+        <div id="prog">
+        <br>
+            <h2 align="center" class="header">Progamming Language learnt</h2>
+            <table align="center" style="width:47%">
+                <tr>
+                    <td>
+                        <img src="project2/C-Sharp-Tutorials.png" alt="C#" width="100" height="80">
+                    </td>
+                    <td>
+                        <img src="project2/html.png" alt="html" width="100" height="90">
+                    </td>
+                    <td>
+                        <img src="project2/css.png" alt="css" width="100" height="90">
+                    </td>
+                    <td>
+                        <img src="project2/js.png" alt="java" width="100" height="90">
+                    </td>
+                    <td align="top">
+                        &nbsp;<img src="project2/Python-logo-notext.svg.png" alt="python" width="80" height="80">
+                    </td>
+                </tr>
+            </table>
+        <br><br><br>
+        </div>
+        <br>
+        <div id="achievements">
+        <br>
+            <h2 align="center" class="header">Achievements</h2>
+            <table align="center" style="width:81%">
+                <tr>
+                    <th>2019</th>
+                    <th>2020</th>
+                    <th>2021</th>
+                </tr>
+                <tr>
+                    <td align="center" style="width:27%">
+                        <b>World Robot Olympiad(WRO) 2019<br>-</b>
+                        <b style="color:tomato">7th Place</b>
+                    </td>
+                    <td align="center" style="width:27%">
+                        <b>World Robot Olympiad(WRO) 2020<br>-</b>
+                        <b style="color:tomato">Participation</b>
+                    </td>
+                    <td align="center" style="width:27%">
+                        <b>World Robot Olympiad(WRO) 2021<br>-</b>
+                        <b style="color:tomato">5th Place</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="portfolio/mp2.jpg">
+                                <img src="portfolio/mp2.jpg" alt="wro2019" width="250px" height="200px">
+                            </a>
+                        </div>
+                        
+                    </td>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="CERT/Certificates_Shi Jin 3Dn_1.jpg">
+                                <img src="CERT/Certificates_Shi Jin 3Dn_1.jpg" alt="wro2020" width="250px" height="200px">
+                            </a>
+                        </div>
+                        
+                    </td>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="CERT/Certificates_Shi Jin 3Dn_10.jpg">
+                                <img src="CERT/Certificates_Shi Jin 3Dn_10.jpg" alt="wro2020" width="250px" height="200px">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="width:27%">
+                        <b>National Robotics Competition(NRC) 2019 <br>-</b>
+                        <b style="color:tomato">Champion</b>
+                        
+                    </td>
+                    <td align="center" style="width:27%">
+                        <b>Robot Virtual Games(RVG) 2020<br>-</b>
+                        <b style="color:tomato">Participation</b>
+                    </td>
+                    <td align="center" style="width:27%">
+                        <b>Robot Virtual Games(RVG) 2021<br>-</b>
+                        <b style="color:tomato">1st Runner Up</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="portfolio/mp5.jpg">
+                                <img src="portfolio/mp5.jpg" alt="nrc2019" width="250px" height="200px">
+                            </a>
+                        </div>
+                    </td>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="CERT/Certificates_Shi Jin 3Dn_2.jpg">
+                                <img src="CERT/Certificates_Shi Jin 3Dn_2.jpg" alt="rvg2020" width="250px" height="200px">
+                            </a>
+                        </div>
+                    </td>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="CERT/Certificates_Shi Jin 3Dn_15.jpg">
+                                <img src="CERT/Certificates_Shi Jin 3Dn_15.jpg" alt="rvg2021" width="250px" height="200px">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        
+            <table align="center" width="81%">
+                <tr>
+                    <th>2022</th>
+                    <th>2023</th>
+                    <th>2024</th>
+                </tr>
+                <tr>
+                    <td align="center" style="width:27%">
+                        <b>WRO Robot Virtual Games 2022<br>-</b>
+                        <b style="color:tomato">2nd Runner Up</b>
+                    </td>
+                    <td align="center" style="width:27%"> 
+                        <b>Singapore Junior Physics Olympiad 2023<br>-</b>
+                        <b style="color:tomato">Bronze</b>
+                    </td>
+                    <td align="center" style="width:27%">
+                        <b>World Robot Olympiad(WRO) 2024<br>-</b>
+                        <b style="color:tomato"></b>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="CERT/wro2022.jpg">
+                                <img src="CERT/wro2022.jpg" alt="wro2022" width="250px" height="200px">
+                            </a>
+                        </div>
+                    </td>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="CERT/phyolymp.jpg">
+                                <img src="CERT/phyolymp.jpg" alt="phyolymp" width="250px" height="250px">
+                            </a>
+                        </div>
+                    </td>
+                    <td align="center" style="width:27%">
+                        <div class="gallery">
+                            <a target="_blank" href="CERT/wro2024.jpg">
+                                <img src="CERT/wro2024.jpg" alt="wro2024" width="250px" height="200px">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div id="featuredproject">
+        <br>
+            <h2 align="center" class="header">Featured Projects</h2>
+            <table style="margin-left:50px; margin-right:50px">
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                <h2>Pokedex</h2>
+                                <ul>
+                                    <li>Link: <a target="_blank" href="https://github.com/J9NIC3/pokedex.git">https://github.com/J9NIC3/pokedex.git</a></li>
+                                    <li>
+                                        Pokedex is a project-based learning experience where we are tasked with creating a Pokémon search engine using Python. 
+                                        This project involves taking user input and implementing corresponding display functions. 
+                                        As an additional feature, we included a surprise section that was not part of the initial assignment. 
+                                        This extension allowed us to deepen our understanding of Python, enhancing our proficiency in the language. 
+                                        Moreover, working on this project taught us valuable communication skills as we collaborated with our partners, 
+                                        exchanging different perspectives and assisting each other in identifying potential program errors."
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2>My Emotional FlashCards</h2>
+                                <ul>
+                                    <li>Link: <a target="_blank" href="https://github.com/J9NIC3/emotions-flashcards.git">https://github.com/J9NIC3/emotions-flashcards.git</a></li>
+                                    <li>My Emotional Flashcards is a project developed by my friends and me during the Youth Digital Currency Programme (YDCP), 
+                                        using basic HTML,CSS and JavaScript. The goal of this project is to digitize learning materials for young children. 
+                                        These flashcards are designed to teach children about various emotions, enhancing their emotional intelligence. 
+                                        We integrated sound effects corresponding to different expressions to create a more engaging and interactive learning experience.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2>Pizza Hut Learning Website</h2>
+                                <ul>
+                                    <li>Link: <a target="_blank" href="https://github.com/J9NIC3/pizza.git">https://github.com/J9NIC3/pizza.git</a></li>
+                                    <li>The Pizza Hut Learning Website was a project I worked on during my participation in the Youth Digital Currency Programme (YDCP).
+                                        This website was created using HTML and CSS to design the interface of a Pizza Hut delivery website. During the development process,
+                                        I applied the knowledge I had acquired previously, utilizing various HTML tags and CSS styles to replicate the actual interface 
+                                        of the delivery website. This experience provided me with a comprehensive understanding of the core concepts underlying webpage development.    
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        <br><br>
+        </div>
+        <br>
+        <div id="connect">
+        <br>
+            <h1 align="center" class="header">Let's connect!</h1>
+            <div class="connect">
+                <table align="center">
+                    <tr>
+                        <td><img src="portfolio/contact.png" width="60px" height="60px"></td>
+                        <td>+65 84177994</td>
+                    </tr>
+                    <tr>
+                        <td><img src="portfolio/ig.png" width="60px" height="60px"></td>
+                        <td><a target="_blank" href="https://www.instagram.com/sh1j1nnn/?hl=en">https://www.instagram.com/sh1j1nnn/?hl=en</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="portfolio/mail.png" width="60px" height="50px"></td>
+                        <td>janice.shijin@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+        <br><br>
+        </div>
+
+    </body>
